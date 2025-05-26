@@ -3,10 +3,10 @@ import Image from "next/image";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 interface Props {
-    label: String,
+    label: string,
     imgSrc: StaticImport,
     inputHolder: string,
-    required?: Boolean,
+    required?: boolean,
     name: string
 }
 
